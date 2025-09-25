@@ -1,0 +1,21 @@
+body {
+    background-image: url(img/imagemwv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: blueviolet;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgb(150, 65, 65);
+}
+
+p {
+    color: white;
+    font-size: 90px;
+}
+
