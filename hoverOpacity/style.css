@@ -1,0 +1,56 @@
+section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+div{
+    padding: 15px;
+    opacity: 0.5;
+}
+div:hover{
+    opacity: 1;
+    scale: 1.1;
+}
+
+.nfr {
+    display: flex;
+    height: 340px;
+    width: 340px;
+}
+
+.laufey {
+    display: flex;
+    height: 340px;
+    width: 340px;
+}
+
+.eternal {
+    display: flex;
+     height: 340px;
+    width: 340px;
+}
+
+.showgirl {
+    display: flex;
+     height: 340px;
+    width: 340px;
+}
+
+.submarine {
+    display: flex;
+     height: 340px;
+    width: 340px;
+}
+
+header {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header:hover {
+    color: orangered;
+}
+
+

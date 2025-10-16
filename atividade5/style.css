@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 150px;
+    height: 230px;
+}
+
+.st {
+    filter: grayscale(100%);
+}
+
+.wanda {
+    filter: sepia(100%);
+}
+
+.super {
+    filter: invert(100%);
+}
+
+.lucifer {
+    filter: blur(4px);
+}
+
+.alice {
+    filter: brightness(350%);
+}
+
+.vampire {
+    filter: contrast(800%);
+}
+
+img:hover {
+    filter: blur(8px);
+    scale: 1.1;
+}

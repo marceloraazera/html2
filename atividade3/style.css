@@ -1,0 +1,225 @@
+.tabuleiro1 {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+
+    margin: 50px;
+
+    height: 100vh;
+    gap: 5px;
+
+    grid-template-areas:
+    "quadrado1 quadrado2 quadrado3"
+    "quadrado4 quadrado5 quadrado6"
+    "quadrado7 quadrado8 quadrado9"
+    "quadrado10 quadrado11 quadrado12"
+    ;
+}
+
+.quadrado1 {
+    grid-area: quadrado1;
+    background-color: blue;
+}
+
+.quadrado2 {
+    grid-area: quadrado2;
+    background-color: green;
+}
+
+.quadrado3 {
+    grid-area: quadrado3;
+    background-color: rgb(145, 8, 236);
+}
+
+.quadrado4 {
+    grid-area: quadrado4;
+    background-color: rgb(70, 93, 219);
+}
+
+.quadrado5 {
+    grid-area: quadrado5;
+    background-color: rgb(36, 211, 50);
+}
+
+.quadrado6 {
+    grid-area: quadrado6;
+    background-color: rgb(155, 55, 236);
+}
+
+.quadrado7 {
+    grid-area: quadrado7;
+    background-color: rgb(117, 125, 235);
+}
+
+.quadrado8 {
+    grid-area: quadrado8;
+    background-color: rgb(119, 190, 125);
+}
+
+.quadrado9 {
+    grid-area: quadrado9;
+    background-color: rgb(199, 102, 255);
+}
+
+.quadrado10 {
+    grid-area: quadrado10;
+    background-color: rgb(182, 185, 226);
+}
+
+.quadrado11 {
+    grid-area: quadrado11;
+    background-color: rgb(205, 235, 206);
+}
+
+.quadrado12 {
+    grid-area: quadrado12;
+    background-color: rgb(197, 165, 240);
+}
+
+
+
+
+
+
+
+
+.galeria {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    margin: 10px 10px;
+
+    height: 100vh;
+    gap: 10px;
+
+    grid-template-areas:
+    "imagem1 imagem2 imagem3"
+    "imagem4 imagem5 imagem6"
+    "imagem7 imagem8 imagem9"
+    ;
+}
+
+.imagem1 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem2 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem3 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem4 {
+    display: flex;
+    height: 540px;
+    width: 45px;
+}
+.imagem5 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem6 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem7 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem8 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+.imagem9 {
+    display: flex;
+    height: 540px;
+    width: 540px;
+}
+
+
+
+
+
+
+
+
+.produtos {
+    display: grid;
+
+    margin: 50px 0px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    height: 100vh;
+    gap: 5px;
+
+    grid-template-areas:
+    "quadrado1 quadrado2 quadrado3"
+    "quadrado4 quadrado5 quadrado6"
+    ;
+}
+
+img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.produto11 {
+    border: 5px, solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produto22 {
+    border: 5px, solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produto33 {
+    border: 5px, solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produto44 {
+    border: 5px, solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produto55 {
+    border: 5px, solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.produto66 {
+    border: 5px, solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

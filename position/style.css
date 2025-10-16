@@ -1,0 +1,53 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+
+.igual {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.caixa1 {
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.caixa2 {
+    background-color: red;
+    position: sticky;
+    top: 20px;
+    left: 50px;
+}
+
+.caixa5 {
+    background-color: rgb(5, 238, 255);
+    position: relative;
+    top: 20px;
+    left: 90px;
+    bottom: 90px;
+}
+
+
+
+

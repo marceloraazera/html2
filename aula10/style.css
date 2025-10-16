@@ -1,0 +1,36 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.caixa1 {
+    background-color: red;
+    position: relative;
+    top: 90px;
+    left: 50px;
+    z-index: -1;
+}
+
+.caixa2 {
+    background-color: blue;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+
+.caixa3 {
+    background-color: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+body {
+    height: 300vh;
+}
+
+.caixa1 {
+    position: sticky;
+    top: 0;
+}

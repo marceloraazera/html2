@@ -1,0 +1,34 @@
+img {
+    width: 250px;
+}
+.blur {
+    filter: blur(5px); /*Desfoca a Imagem*/ 
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.brightness {
+    filter: brightness(500%);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.contrast {
+    filter: contrast(200%);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+img:hover {
+    filter: none;
+}
