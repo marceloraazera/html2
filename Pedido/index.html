@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('https://i.pinimg.com/736x/ba/86/41/ba86419398265ea8b85f6b4e2f1902fa.jpg');
+            background-repeat: no-repeat;
+        }
+
+        .botoes {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 45px;
+        }
+
+        h1 {
+            background-color: rgb(189, 29, 29);
+            font-size: 70px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: rgb(189, 29, 29);
+            font-size: 40px;
+            border: rgb(255, 185, 185);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="titulo">
+        <h1>QUER NAMORAR COMIGO?</h1>
+    </div>
+
+    <div class="botoes">
+        <button onclick="sim()" class="botaoS">SIM❤️</button>
+        <button id="botao" onclick="desvia()" class="botaoN">NÃO💔</button>
+    </div>
+
+    <script>
+        function sim() {
+            location.href = "https://youtu.be/GxldQ9eX2wo?si=Fy32GCMD5zfOxkBI"
+        }
+
+        let botao = document.getElementById("botao")
+        function desvia() {
+            botao.style.position = "absolute"
+            botao.style.bottom = gerarPosicao(10, 80)
+            botao.style.left = gerarPosicao(10, 80)
+        }
+        function gerarPosicao(min, max) {
+            return (Math.random() * (max - min) + min) + "%"
+        }
+    </script>
+</body>
+
+</html>
