@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    height: 95vh;
+    background-color: rgb(234, 234, 255);
+}
+
+h1 {
+    margin-left: -9px;
+    font-weight: 100;
+    font-size: 60px;
+    color: rgb(80, 80, 189);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    background-color: rgb(80, 80, 189);
+    border: none;
+    height: 35px;
+    width: 160px;
+    color: rgb(242, 226, 196);
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(32, 32, 150);
+    border: none;
+    height: 37px;
+    width: 160px;
+    color: rgb(245, 236, 221);
+}
+
+input {
+    height: 30px;
+    width: 210px;
+}
+
+ul {
+    color: rgb(80, 80, 189);
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 296px;
+    border-radius: 3px;
+    font-size: 19px;
+}
