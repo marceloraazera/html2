@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    margin-top: -20px;
+    background-color: rgb(255, 255, 255);
+    width: 560px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+#respostas {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+#alternativas {
+    background-color: rgb(193, 221, 240);
+    border: 0;
+    font-size: 16px;
+    padding: 5px 10px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#alternativas:hover {
+    background-color: rgb(88, 178, 238);
+    cursor: pointer;
+}
+
+#proxima {
+    width: 200px;
+    height: 37px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 16px;
+    background-color: rgb(88, 178, 238);
+    cursor: pointer;
+}
+
+#proxima:hover {
+    background-color: rgb(193, 221, 240);
+}
+
+#results {
+    color:rgb(0, 34, 56);
+    background-color: rgb(88, 178, 238);
+    border: 0;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#results:hover {
+    background-color: rgb(0, 34, 56);
+    color: rgb(88, 178, 238);
+}
+
+#fim {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
